@@ -1,0 +1,14 @@
+PN: u-boot-openrex
+PV: v2015.10+gitAUTOINC+7d8ddd7de7
+PR: r0
+PKGV: v2015.10+git0+7d8ddd7de7
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-openrex-dbg: U-Boot bootloader with support for OpenRex board. More info at http://www.imx6rex.com/open-rex  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_u-boot-openrex-dbg: U-Boot bootloader with support for OpenRex board - Debugging files
+SECTION_u-boot-openrex-dbg: devel
+PKG_u-boot-openrex-dbg: u-boot-openrex-dbg
+ALLOW_EMPTY_u-boot-openrex-dbg: 1
+FILES_u-boot-openrex-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/u-boot-openrex/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/u-boot-openrex/.debug /usr/lib/matchbox-panel/.debug /usr/lib/u-boot-openrex/u-boot-openrex/.debug /usr/src/debug /boot/.debug
+FILES_INFO: {}
+PKGSIZE_u-boot-openrex-dbg: 0

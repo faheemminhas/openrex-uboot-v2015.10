@@ -1,0 +1,38 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_package_write_rpm
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+DEBUG: Executing python function do_package_rpm
+DEBUG: Executing python function write_specfile
+NOTE: Creating EMPTY RPM Package for u-boot-openrex-dbg
+NOTE: Not creating empty RPM package for u-boot-openrex-staticdev
+NOTE: Creating EMPTY RPM Package for u-boot-openrex-dev
+NOTE: Not creating empty RPM package for u-boot-openrex-doc
+NOTE: Not creating empty RPM package for u-boot-openrex-locale
+NOTE: Creating RPM package for u-boot-openrex
+NOTE: Creating RPM package for u-boot-openrex
+DEBUG: Python function write_specfile finished
+DEBUG: PKGWRITEDIR: /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/deploy-rpms/imx6q_openrex
+DEBUG: Executing shell function BUILDSPEC
+Building target platforms: imx6q_openrex-poky-linux-gnueabi
+Processing files: u-boot-openrex-v2015.10+git0+7d8ddd7de7-r0.imx6q_openrex
+Processing files: u-boot-openrex-dbg-v2015.10+git0+7d8ddd7de7-r0.imx6q_openrex
+Processing files: u-boot-openrex-dev-v2015.10+git0+7d8ddd7de7-r0.imx6q_openrex
+Checking for unpackaged file(s): /home/faheem/fsl-community-bsp/build-openrex/tmp/sysroots/x86_64-linux/usr/bin/../lib/rpm/check-files /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/package
+Wrote: /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/deploy-rpms/imx6q_openrex/u-boot-openrex-v2015.10+git0+7d8ddd7de7-r0.imx6q_openrex.rpm
+Wrote: /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/deploy-rpms/imx6q_openrex/u-boot-openrex-dbg-v2015.10+git0+7d8ddd7de7-r0.imx6q_openrex.rpm
+Wrote: /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/deploy-rpms/imx6q_openrex/u-boot-openrex-dev-v2015.10+git0+7d8ddd7de7-r0.imx6q_openrex.rpm
+DEBUG: Shell function BUILDSPEC finished
+DEBUG: Python function do_package_rpm finished
+DEBUG: Python function do_package_write_rpm finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Staging files from /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/deploy-rpms to /home/faheem/fsl-community-bsp/build-openrex/tmp/deploy/rpm
+NOTE: Using umask 002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/deploy-rpms for packaging at /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/sstate-build-package_write_rpm/deploy-rpms
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/sstate-build-package_write_rpm/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/faheem/fsl-community-bsp/build-openrex/tmp/sysroots/imx6q-openrex' | tee /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/sstate-build-package_write_rpm/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/faheem/fsl-community-bsp/build-openrex/tmp/sysroots/imx6q-openrex:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Python function sstate_task_postfunc finished

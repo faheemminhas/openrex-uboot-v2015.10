@@ -1,0 +1,13 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing shell function do_packagedata
+DEBUG: Shell function do_packagedata finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Staging files from /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/pkgdata to /home/faheem/fsl-community-bsp/build-openrex/tmp/sysroots/imx6q-openrex/pkgdata
+DEBUG: Preparing tree /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/pkgdata for packaging at /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/sstate-build-packagedata/pkgdata
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/sstate-build-packagedata/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/faheem/fsl-community-bsp/build-openrex/tmp/sysroots/imx6q-openrex' | tee /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/sstate-build-packagedata/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/faheem/fsl-community-bsp/build-openrex/tmp/sysroots/imx6q-openrex:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Python function sstate_task_postfunc finished

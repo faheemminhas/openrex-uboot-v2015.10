@@ -1,0 +1,15 @@
+PN: u-boot-openrex
+PV: v2015.10+gitAUTOINC+7d8ddd7de7
+PR: r0
+PKGV: v2015.10+git0+7d8ddd7de7
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-openrex-dev: U-Boot bootloader with support for OpenRex board. More info at http://www.imx6rex.com/open-rex  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_u-boot-openrex-dev: U-Boot bootloader with support for OpenRex board - Development files
+RDEPENDS_u-boot-openrex-dev: u-boot-openrex (= v2015.10+git0+7d8ddd7de7-r0)
+SECTION_u-boot-openrex-dev: devel
+PKG_u-boot-openrex-dev: u-boot-openrex-dev
+ALLOW_EMPTY_u-boot-openrex-dev: 1
+FILES_u-boot-openrex-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/u-boot-openrex/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_u-boot-openrex-dev: 0

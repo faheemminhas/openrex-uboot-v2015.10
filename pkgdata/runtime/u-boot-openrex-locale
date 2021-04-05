@@ -1,0 +1,13 @@
+PN: u-boot-openrex
+PV: v2015.10+gitAUTOINC+7d8ddd7de7
+PR: r0
+PKGV: v2015.10+git0+7d8ddd7de7
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: U-Boot bootloader with support for OpenRex board. More info at http://www.imx6rex.com/open-rex
+SUMMARY: U-Boot bootloader with support for OpenRex board
+SECTION: bootloaders
+PKG_u-boot-openrex-locale: u-boot-openrex-locale
+FILES_u-boot-openrex-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_u-boot-openrex-locale: 0

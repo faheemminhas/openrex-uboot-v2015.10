@@ -1,0 +1,13 @@
+PN: u-boot-openrex
+PV: v2015.10+gitAUTOINC+7d8ddd7de7
+PR: r0
+PKGV: v2015.10+git0+7d8ddd7de7
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-openrex-doc: U-Boot bootloader with support for OpenRex board. More info at http://www.imx6rex.com/open-rex  This package contains documentation.
+SUMMARY_u-boot-openrex-doc: U-Boot bootloader with support for OpenRex board - Documentation files
+SECTION_u-boot-openrex-doc: doc
+PKG_u-boot-openrex-doc: u-boot-openrex-doc
+FILES_u-boot-openrex-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_u-boot-openrex-doc: 0

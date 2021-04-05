@@ -1,0 +1,21 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_package_qa
+NOTE: DO PACKAGE QA
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+NOTE: Checking Package: u-boot-openrex-staticdev
+NOTE: Checking Package: u-boot-openrex-locale
+NOTE: Checking Package: u-boot-openrex
+NOTE: Checking Package: u-boot-openrex-doc
+NOTE: Checking Package: u-boot-openrex-dbg
+NOTE: Checking Package: u-boot-openrex-dev
+NOTE: DONE with PACKAGE QA
+DEBUG: Python function do_package_qa finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/sstate-build-package_qa/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/faheem/fsl-community-bsp/build-openrex/tmp/sysroots/imx6q-openrex' | tee /home/faheem/fsl-community-bsp/build-openrex/tmp/work/imx6q_openrex-poky-linux-gnueabi/u-boot-openrex/v2015.10+gitAUTOINC+7d8ddd7de7-r0/sstate-build-package_qa/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/faheem/fsl-community-bsp/build-openrex/tmp/sysroots/imx6q-openrex:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Python function sstate_task_postfunc finished

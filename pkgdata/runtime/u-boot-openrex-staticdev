@@ -1,0 +1,14 @@
+PN: u-boot-openrex
+PV: v2015.10+gitAUTOINC+7d8ddd7de7
+PR: r0
+PKGV: v2015.10+git0+7d8ddd7de7
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-openrex-staticdev: U-Boot bootloader with support for OpenRex board. More info at http://www.imx6rex.com/open-rex  This package contains static libraries for software development.
+SUMMARY_u-boot-openrex-staticdev: U-Boot bootloader with support for OpenRex board - Development files (Static Libraries)
+RDEPENDS_u-boot-openrex-staticdev: u-boot-openrex-dev (= v2015.10+git0+7d8ddd7de7-r0)
+SECTION_u-boot-openrex-staticdev: devel
+PKG_u-boot-openrex-staticdev: u-boot-openrex-staticdev
+FILES_u-boot-openrex-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/u-boot-openrex/*.a
+FILES_INFO: {}
+PKGSIZE_u-boot-openrex-staticdev: 0
